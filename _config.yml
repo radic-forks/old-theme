@@ -15,8 +15,8 @@ owner:
   email:          robin@radic.nl
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
-  facebook:       
-  github:         http://github.com/robinradic
+  facebook:       robin.radic.3
+  github:         robinradic
   stackexchange:  
   linkedin:       
   instagram:      
@@ -24,13 +24,13 @@ owner:
   tumblr:         
   # For Google Authorship https://plus.google.com/authorship
   # google plus id, include the '+', eg +mmistakes
-  google_plus:    +yourid
+  google_plus:
 
 # Background image to be tiled on all pages
 background: 
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   
+google_analytics:   UA-32468647-2
 google_verify:      
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:         

@@ -2,6 +2,28 @@
 
 - title: Projects
   url: /projects/
+  children:
+    - title: Overview
+      url: /projects/
 
-- title: External Link
-  url: http://mademistakes.com
+    - title: Blade Extensions
+      logo: laravel.png
+      url: http://github.com/RobinRadic/blade-extensions
+
+    - title: Radic CLI
+      logo: node.svg
+      url: http://mademistakes.com
+
+    - title: RadicOS
+      logo: ../radic-logo-orange.png
+      url: http://mademistakes.com
+
+    - title: SwiftApi 2
+      logo: java.png
+      url: http://mademistakes.com
+
+- title: Portfolio
+  url: /portfolio/
+
+- title: Repositories
+  url: /repositories/
