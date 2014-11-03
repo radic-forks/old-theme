@@ -1,13 +1,10 @@
 {
-  "name": "hpstr-theme",
-  "author": "Michael Rose <michael@mademistakes.com>",
-  "homepage": "http://mmistakes.github.io/hpstr-jekyll-theme/",
+  "name": "radic-theme",
+  "author": "Robin Radic",
+  "homepage": "http://RobinRadic.github.io",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mmistakes/hpstr-jekyll-theme.git"
-  },
-  "bugs": {
-    "url": "https://github.com/mmistakes/hpstr-jekyll-theme/issues"
+    "url": "git://github.com/RobinRadic/RobinRadic.github.io.git"
   },
   "engines": {
     "node": ">= 0.10.0"
