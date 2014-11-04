@@ -1,0 +1,34 @@
+#!/bin/bash
+
+pdir=$PWD
+subdir=$pdir/../shared-gh-pages
+
+
+# make sure symlinks is ignored by git
+git config --add core.symlinks false
+
+# remove symlink
+rm _includes -rf
+
+# commit the submodule first
+cd $subdir
+git add -A
+git commit -m "$*"
+git push -u origin master
+cd $pdir
+
+
+# remove possible _includes variants in git
+git rm _includes -rf;
+rm .git/modules -rf
+
+
+# submodule _includes to get latest, and then commit with it
+git submodule add https://github.com/RobinRadic/shared-gh-pages.git _includes
+git add -A
+git commit -m "$*"
+git push -u origin master
+
+
+# now lets symbolic link the repo so we can edit the files
+ln -s ../shared-gh-pages _includes
