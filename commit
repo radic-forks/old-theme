@@ -18,7 +18,7 @@ git push -u origin master
 cd $pdir
 
 
-# remove possible _includes variants in git
+# remove possible submodule
 git rm _includes -rf;
 rm .git/modules -rf
 
@@ -28,6 +28,11 @@ git submodule add https://github.com/RobinRadic/shared-gh-pages.git _includes
 git add -A
 git commit -m "$*"
 git push -u origin master
+
+
+# remove possible submodule
+git rm _includes -rf;
+rm .git/modules -rf
 
 
 # now lets symbolic link the repo so we can edit the files
