@@ -83,7 +83,7 @@
             <a href="#">{{ link.title }}</a>
             <ul class="dl-submenu">
                 {% for child in link.children %}
-                {% if link.url contains 'http' %}
+                {% if child.url contains 'http' %}
                 {% assign domain = '' %}
                 {% else %}
                 {% assign domain = child.url %}
