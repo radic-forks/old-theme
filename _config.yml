@@ -1,6 +1,5 @@
 title:            Radic's git
 description:      Geek stuff
-disqus_shortname: radic
 reading_time:     true
 words_per_minute: 200
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
@@ -9,35 +8,9 @@ url: http://robinradic.github.io
 
 
 layouts:     ./_includes/_layouts
+data_source:  ._includes/_data
 
 
-# Owner/author information
-owner:
-  name:           Robin Radic
-  avatar:         avatar.jpg
-  bio:            "Check out my codez, projects and posts" #Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
-  email:          robin@radic.nl
-  # Social networking links used in footer. Update and remove as you like.
-  twitter:        
-  facebook:       robin.radic.3
-  github:         robinradic
-  stackexchange:  
-  linkedin:       
-  instagram:      
-  flickr:         
-  tumblr:         
-  # For Google Authorship https://plus.google.com/authorship
-  # google plus id, include the '+', eg +mmistakes
-  google_plus:
-
-# Background image to be tiled on all pages
-background: 
-
-# Analytics and webmaster tools stuff goes here
-google_analytics:   UA-32468647-2
-google_verify:      
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Amsterdam/Netherlands
