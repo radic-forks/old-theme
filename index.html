@@ -9,7 +9,9 @@ image:
   credit: Q-Dance
   creditlink: http://www.q-dance.com/
 ---
-
+{% for repo in public_repositories %}
+        {{ repo.name }}
+      {% endfor %}
 {% for post in paginator.posts %}
 <article class="hentry">
   <header>
