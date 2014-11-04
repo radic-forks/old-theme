@@ -8,15 +8,15 @@
 
     - title: Blade Extensions
       logo: laravel.png
-      url: http://github.com/RobinRadic/blade-extensions
+      url: /blade-extensions
 
     - title: Radic CLI
       logo: node.svg
-      url: http://mademistakes.com
+      url: /radic-cli
 
     - title: RadicOS
       logo: ../radic-logo-orange.png
-      url: http://mademistakes.com
+      url: /RadicOS
 
     - title: SwiftApi 2
       logo: java.png
