@@ -1,6 +1,0 @@
-[submodule "_layouts"]
-	path = _layouts
-	url = https://github.com/RobinRadic/shared-gh-pages.git
-[submodule "_includes/_layouts"]
-	path = _includes/_layouts
-	url = https://github.com/RobinRadic/shared-gh-pages
