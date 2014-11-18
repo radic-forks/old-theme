@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "grunt-jekyll": "^0.4.2",
+    "grunt-shell": "^1.1.1",
     "livereloadx": "^0.3.7",
     "preprocess": "^2.1.0"
   }

@@ -8,16 +8,7 @@ module.exports = function (grunt) {
     require('load-grunt-tasks')(grunt);
 
     grunt.initConfig({
-        jshint: {
-            options: {
-                // jshintrc: '.jshintrc'
-            },
-            all: [
-                'Gruntfile.js',
-                'assets/js/{radic,plugins,*}/*.js',
-                '!assets/js/scripts.min.js'
-            ]
-        },
+
         jekyll: {                       // Task
             options: {                          // Universal options
                 bundleExec: true,
@@ -30,82 +21,46 @@ module.exports = function (grunt) {
                 drafts: true
             }
         },
-        livereloadx: {
-            static: true,
-            dir: './'
+        shell: {
+            jekyllBuild: {
+                command: 'jekyll build'
+            },
+            jekyllServe: {
+                command: 'jekyll serve'
+            }
         },
         preprocess: {
             options: {
                 context: {
-                    DEBUG: true,
-                    cookie: true,
-                    github: true, // requires: cookie
-                    GithubProfileWidget: true // requires: github
+                    DEBUG: true
                 }
             },
             js: {
-
                 files: [{
                     expand: true,
-                    cwd: 'assets/js/radic',
+                    cwd: 'assets/js/core',
                     src: 'radic.js',
                     dest: 'assets/js'
                 }]
             }
         },
-
-        uglify: {
-            dist: {
-                files: {
-                    'assets/js/scripts.min.js': [
-                        'assets/js/plugins/*.js',
-                        'assets/js/_*.js',
-                        'assets/js/radic.js'
-                    ]
-                }
-            },
-            test: {
-                options: {
-                    beautify: true
-                },
-                files: {
-                    'assets/js/vendor.js': [
-                        'assets/js/plugins/*.js',
-                        'assets/js/_*.js'
-                    ]
-                }
-            }
-        }, /*
-         imagemin: {
-         dist: {
-         options: {
-         optimizationLevel: 7,
-         progressive: true
-         },
-         files: [{
-         expand: true,
-         cwd: 'images/',
-         src: '{,*\/}*.{png,jpg,jpeg}',
-         dest: 'images/'
-         }]
-         }
-         },*/
-        svgmin: {
-            dist: {
-                files: [{
-                    expand: true,
-                    cwd: 'images/',
-                    src: '{,*/}*.svg',
-                    dest: 'images/'
-                }]
-            }
-        },
         watch: {
-            js: {
+            my: {
                 files: [
-                    '<%= jshint.all %>'
+                    'assets/js/core/**/*',
+                    'assets/js/widgets/**/*',
+                    '_includes/*.html',
+                    '_layouts/*.html',
+                    '_posts/*.markdown',
+                    '_config.yml',
+                    'index.html'
                 ],
-                tasks: ['preprocess:js', 'uglify']
+                tasks: ['preprocess:js', 'shell:jekyllBuild', 'shell:jekyllServe'],
+                options: {
+                    interrupt: true,
+                    atBegin: true,
+                    livereload: true
+                }
             }
         },
         clean: {
@@ -122,7 +77,7 @@ module.exports = function (grunt) {
     // Register tasks
     grunt.registerTask('default', [
         'clean',
-        'uglify',
+       // 'uglify',
         'imagemin',
         'svgmin'
     ]);

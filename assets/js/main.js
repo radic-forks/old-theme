@@ -52,18 +52,5 @@ $(document).ready(function () {
     });
 
 
-    var handleUserUpdate = function (user) {
-        console.log('handleUserUpdate', user);
 
-    };
-
-    console.log('radic', radic);
-
-    radic({
-        //ooptions
-    }).widget('github-profile', {
-            userName: radic.options.github.username,
-            maxRepos: 3
-        });
-    console.log(radic);
 });

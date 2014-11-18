@@ -1,9 +1,13 @@
 /**
- * Github widget styles 
+ * Github widget styles
  * ------------------------------------------------------------------
  */
 
 .gh-profile-widget {
+
+	table.languages-list {
+		font-size: 12px
+	}
 
 	& {
 		width: 280px;
@@ -14,7 +18,7 @@
 		border-width: 1px 1px 2px;
 		border-style: solid;
 		border-color: #DDD;
-		overflow: hidden;    
+		overflow: hidden;
 	}
 
 	a {
@@ -58,8 +62,10 @@
 		overflow: hidden;
 		padding: 15px 10px;
 		padding-bottom: 0;
-		min-height: 135px;
+
 	}
+
+
 
 	.stats {
 		padding: 5px;
@@ -71,7 +77,7 @@
 			clear: both;
 			margin: 0 -10px;
 			padding: 10px;
-			
+
 			border-top: 1px solid #DEDEDE;
 			font-size: 0.8em;
 		}
@@ -95,7 +101,7 @@
 			&::after {
 				content: '\2022';
 				margin-left: 10px;
-				color: #999;       
+				color: #999;
 			}
 
 			&:last-child::after {
@@ -129,7 +135,7 @@
 	.follow-button:hover {
 		color: inherit;
 		background: #DDD;
-		background-image: linear-gradient(#EEE, #DDD); 
+		background-image: linear-gradient(#EEE, #DDD);
 	}
 
 	/* followers number */
@@ -193,6 +199,7 @@
 			padding: 5px 10px;
 		}
 
+
 		a {
 			position: relative;
 			display: block;
@@ -204,6 +211,7 @@
 				border: none;
 			}
 		}
+
 
 		.repo-name {
 			max-width: 280px;
