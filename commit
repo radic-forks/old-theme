@@ -33,6 +33,7 @@ git push -u origin master
 # remove possible submodule
 git rm _includes -rf;
 rm .git/modules -rf
+rm _includes -rf
 
 
 # now lets symbolic link the repo so we can edit the files

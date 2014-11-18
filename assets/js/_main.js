@@ -33,12 +33,6 @@ $("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gi
 $(document).ready(function () {
 
 
-    var $newDiv = $(document.createElement('div'));
-    $newDiv.attr('id', 'github-widget');
-    $newDiv.attr('data-username', 'robinradic');
-
-    $('body').append($newDiv);
-
 
     $('.image-popup').magnificPopup({
         type: 'image',
@@ -63,15 +57,13 @@ $(document).ready(function () {
 
     };
 
-    window.Radic.make({
+    console.log('radic', radic);
+
+    radic({
         //ooptions
-
-    }, function (radic) {
-
-
-        radic.widget('github-profile', {
-            userName: radic.options.git.username,
+    }).widget('github-profile', {
+            userName: radic.options.github.username,
             maxRepos: 3
         });
-    });
+    console.log(radic);
 });

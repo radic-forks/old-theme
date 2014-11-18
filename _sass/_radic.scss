@@ -1,3 +1,52 @@
+@import "core";
+
+// Reset and dependencies
+@import "vendor/bootstrap/normalize";
+@import "vendor/bootstrap/print";
+
+// Core CSS
+@import "vendor/bootstrap/scaffolding";
+html, body {
+    font-size: #{$font-size}px;
+}
+@import "vendor/bootstrap/type";
+//@import "vendor/bootstrap/code";
+code {
+    color: $code-color;
+}
+pre code {
+    color: $pre-color;
+}
+@import "vendor/bootstrap/grid";
+//@import "vendor/bootstrap/tables";
+//@import "vendor/bootstrap/forms";
+//@import "vendor/bootstrap/buttons";
+
+@import "base/site";
+@import "base/typography";
+@import "base/pygments";
+@import "base/coderay";
+@import "base/gist";
+@import "base/grid";
+@import "base/elements";
+@import "base/animations";
+@import "base/dl-menu";
+
+@import "base/page";
+
+
+@import "vendor/font-awesome/font-awesome";
+@import "vendor/magnific-popup/magnific-popup";
+
+@import "vendor/gh-profile-widget";
+
+.gh-profile-widget {
+    position: fixed;
+    right: 25px;
+    top: 25px;
+}
+
 .author-photo {
     // width: 100%;
 }
+

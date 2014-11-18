@@ -1,4 +1,8 @@
 'use strict';
+
+var util = require('util');
+
+
 module.exports = function (grunt) {
 
     require('load-grunt-tasks')(grunt);
@@ -10,18 +14,43 @@ module.exports = function (grunt) {
             },
             all: [
                 'Gruntfile.js',
-                'assets/js/*.js',
-                'assets/js/plugins/*.js',
+                'assets/js/{radic,plugins,*}/*.js',
                 '!assets/js/scripts.min.js'
             ]
         },
-        jekyll: {              // Task
-            options: {
-                host: '0.0.0.0',
-                port: 4000
+        jekyll: {                       // Task
+            options: {                          // Universal options
+                bundleExec: true,
+                src: './',
+                serve: true,
+                watch: true
             },
             serve: {
+                dest: '.jekyll',
                 drafts: true
+            }
+        },
+        livereloadx: {
+            static: true,
+            dir: './'
+        },
+        preprocess: {
+            options: {
+                context: {
+                    DEBUG: true,
+                    cookie: true,
+                    github: true, // requires: cookie
+                    GithubProfileWidget: true // requires: github
+                }
+            },
+            js: {
+
+                files: [{
+                    expand: true,
+                    cwd: 'assets/js/radic',
+                    src: 'radic.js',
+                    dest: 'assets/js'
+                }]
             }
         },
 
@@ -30,7 +59,8 @@ module.exports = function (grunt) {
                 files: {
                     'assets/js/scripts.min.js': [
                         'assets/js/plugins/*.js',
-                        'assets/js/_*.js'
+                        'assets/js/_*.js',
+                        'assets/js/radic.js'
                     ]
                 }
             },
@@ -39,27 +69,27 @@ module.exports = function (grunt) {
                     beautify: true
                 },
                 files: {
-                    'assets/js/scripts.min.js': [
+                    'assets/js/vendor.js': [
                         'assets/js/plugins/*.js',
                         'assets/js/_*.js'
                     ]
                 }
             }
-        },
-        imagemin: {
-            dist: {
-                options: {
-                    optimizationLevel: 7,
-                    progressive: true
-                },
-                files: [{
-                    expand: true,
-                    cwd: 'images/',
-                    src: '{,*/}*.{png,jpg,jpeg}',
-                    dest: 'images/'
-                }]
-            }
-        },
+        }, /*
+         imagemin: {
+         dist: {
+         options: {
+         optimizationLevel: 7,
+         progressive: true
+         },
+         files: [{
+         expand: true,
+         cwd: 'images/',
+         src: '{,*\/}*.{png,jpg,jpeg}',
+         dest: 'images/'
+         }]
+         }
+         },*/
         svgmin: {
             dist: {
                 files: [{
@@ -75,7 +105,7 @@ module.exports = function (grunt) {
                 files: [
                     '<%= jshint.all %>'
                 ],
-                tasks: ['uglify:test']
+                tasks: ['preprocess:js', 'uglify']
             }
         },
         clean: {
@@ -86,6 +116,9 @@ module.exports = function (grunt) {
     });
 
 
+    grunt.loadNpmTasks('livereloadx');
+    //grunt.registerTask('default', ['livereloadx']);
+
     // Register tasks
     grunt.registerTask('default', [
         'clean',
@@ -94,7 +127,8 @@ module.exports = function (grunt) {
         'svgmin'
     ]);
     grunt.registerTask('dev', [
-        'watch'
+        'livereloadx',
+        'jekyll:serve'
     ]);
 
 };
