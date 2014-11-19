@@ -56,10 +56,37 @@ pre code {
 
 .repo-table {
     font-size: 12px;
+
+    .repo-table-name {
+        font-size: 15px;
+
+    }
+
+    .repo-table-desc {
+        font-size: 11px ;
+    }
+
+    .repo-table-name,
+    .repo-table-desc {
+        padding-right: 30px;
+    }
+
+    thead tr th {
+        min-width: 20px;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    tbody tr {
+        border-bottom: 1px solid #666;
+    }
+
+    tbody td {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+
 }
 
-.repo-table thead th {
-    font-weight: bold;
-    text-align: left;
-}
 
