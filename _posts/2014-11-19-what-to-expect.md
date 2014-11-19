@@ -13,7 +13,7 @@ image:
 
 FIRST POST YEAH. Summing up some stuff you'll find here in the future...
 
-- [Developing][Developing]
+- [Developing](Developing)
 - [WebDeveloping][]
 - [Custom Linux][]
 - [Screenshot and download][]
