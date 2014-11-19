@@ -3,7 +3,7 @@ layout: post
 title: What to expect on my git
 description: "Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more."
 modified: 2014-11-19
-tags: [sample post]
+tags: [fontpage]
 image:
   feature: abstract-3.jpg
   credit: dargadgetz
