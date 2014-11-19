@@ -15,6 +15,7 @@ creditlink: http://www.q-dance.com/
                     <tr>
                         <th>Repository</th>
                         <th class="repo-table-border-right">Description</th>
+                        <th class="repo-table-border-right"><i class="fa fa-code"></i></th>
                         <th class="repo-table-border-right"><i class="fa fa-star"></i></th>
                         <th class="repo-table-border-right"><i class="fa fa-code-fork"></i></th>
                         <th class="repo-table-border-right"><i class="fa fa-eye"></i></th>
@@ -27,6 +28,7 @@ creditlink: http://www.q-dance.com/
                     <tr>
                         <td class="repo-table-name"><a href="{{ repo.html_url }}" target="_blank">{{ repo.name }}</a></td>
                         <td class="repo-table-desc repo-table-border-right">{{ repo.description }}</td>
+                        <td class="repo-table-border-right">{{ repo.language }}</td>
                         <td class="repo-table-border-right">{% if repo.stargazers_count > 0 %}{{ repo.stargazers_count }}{% endif %}</td>
                         <td class="repo-table-border-right">{% if repo.forks > 0 %}{{ repo.forks }}{% endif %}</td>
                         <td class="repo-table-border-right">{% if repo.watchers > 0 %}{{ repo.watchers }}{% endif %}</td>
