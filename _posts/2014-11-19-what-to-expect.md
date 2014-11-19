@@ -64,7 +64,7 @@ Il now get to the point im trying to make clear, as web-developer you simply req
 
 ![radic gitinit](https://raw.githubusercontent.com/RobinRadic/radic-cli/master/wizard2.jpeg). Pretty much all questions are already filled in properly by default. How much times haven't you done:
 
-{% highlight Bash linenos %}
+{% highlight Bash  %}
 git init
 touch .gitignore
 echo -e "/node_modules \n /vendor \n /whatevaah" >> .gitignore
@@ -79,7 +79,7 @@ git push -u origin master
 (Btw, if you like the prompt
 
 Imagine just doing this:
-{% highlight bash linenos %}
+{% highlight bash  %}
 radic gitinit
 [enter]
 [enter]
@@ -94,7 +94,7 @@ myawesomeproject
 {% endhighlight %}
 
 Or even better:
-{% highlight bash linenos %}
+{% highlight bash  %}
 radic init [project type]
 Myy awesome project # project name
 y # yes to gitinit it
@@ -103,7 +103,7 @@ y # yes to gitinit it
 
 And the result? (php/laravel with front-end stuffz)
 
-{% highlight bash linenos %}
+{% highlight bash  %}
 root
  .git
  app
@@ -150,7 +150,7 @@ Full details soon!
 Here's an example of a kiwi xml file. EZ PZ
 
 
-{% highlight xml linenos=table %}
+{% highlight xml  %}
 <?xml version="1.0" encoding="utf-8"?>
 <image
 
@@ -571,7 +571,7 @@ Here's an example of a kiwi xml file. EZ PZ
 
 </image>
 {% endhighlight %}
-{% highlight bash linenos=table %}
+{% highlight bash  %}
 #!/bin/bash
 
 rdir=$PWD
@@ -740,7 +740,7 @@ installerold() {
 }
 
 $*
-{% endhighlight linenos=table %}
+{% endhighlight  %}
 
 
 ### Screenshot and download ###

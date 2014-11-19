@@ -2,7 +2,7 @@
 layout: page
 title: Repositories
 description: "My Github index and blog site."
-tags: [radic]
+tags: [repositories]
 comments: false
 image:
 feature: lazers.jpg
@@ -13,15 +13,11 @@ creditlink: http://www.q-dance.com/
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-
+            {{ site.github.owner_name }}
         </div>
     </div>
 </div>
 
 <script>
-    $(function(){
-        $.github.user.repos('RobinRadic', function(repos){
-            console.log(repos);
-        })
-    })
+
 </script>
