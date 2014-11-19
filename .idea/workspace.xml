@@ -105,11 +105,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_pygments.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_pygments.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_sass/base/_pygments.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="702" max-vertical-offset="1404">
-              <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.026825633" vertical-offset="0" max-vertical-offset="1476">
+              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -185,14 +185,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2014-11-19-what-to-expect.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2014-11-19-what-to-expect.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2014-11-19-what-to-expect.md">
           <provider editor-type-id="MarkdownPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3121019" vertical-offset="13160" max-vertical-offset="13788">
-              <caret line="742" column="30" selection-start-line="742" selection-start-column="30" selection-end-line="742" selection-end-column="30" />
+            <state vertical-scroll-proportion="-4.803571" vertical-offset="12673" max-vertical-offset="13788">
+              <caret line="719" column="0" selection-start-line="719" selection-start-column="0" selection-end-line="719" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -231,13 +231,13 @@
         <option value="$APPLICATION_PLUGINS_DIR$/scratches/scratch.txt" />
         <option value="$PROJECT_DIR$/assets/js/examples/repos.json" />
         <option value="$PROJECT_DIR$/assets/js/core/plugins/gitter.js" />
-        <option value="$PROJECT_DIR$/_sass/base/_pygments.scss" />
         <option value="$PROJECT_DIR$/_sass/_bootstrap-variables.scss" />
         <option value="$PROJECT_DIR$/_posts/2011-03-10-sample-post.md" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/repositories/index.html" />
         <option value="$PROJECT_DIR$/_sass/_radic.scss" />
         <option value="$PROJECT_DIR$/_posts/2014-11-19-what-to-expect.md" />
+        <option value="$PROJECT_DIR$/_sass/base/_pygments.scss" />
       </list>
     </option>
   </component>
@@ -496,28 +496,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="robinradic.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="robinradic.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_sass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="base" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -659,7 +637,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1600" y="19" width="1894" height="1143" extended-state="4" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
@@ -667,13 +645,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.32949087" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" x="3728" y="639" width="734" height="340" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32853025" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32853025" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.32949087" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="3556" y="715" width="844" height="447" />
       <window_info id="Jenkins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32979852" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.24973032" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" x="1258" y="76" width="325" height="1041" />
       <window_info id="Get Gist" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32949087" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949087" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.24973032" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="4381" y="116" width="235" height="573" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982087" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -967,14 +945,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/base/_pygments.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="702" max-vertical-offset="1404">
-          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
@@ -1116,8 +1086,16 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3121019" vertical-offset="13160" max-vertical-offset="13788">
-          <caret line="742" column="30" selection-start-line="742" selection-start-column="30" selection-end-line="742" selection-end-column="30" />
+        <state vertical-scroll-proportion="-4.803571" vertical-offset="12673" max-vertical-offset="13788">
+          <caret line="719" column="0" selection-start-line="719" selection-start-column="0" selection-end-line="719" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/base/_pygments.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.026825633" vertical-offset="0" max-vertical-offset="1476">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
           <folding />
         </state>
       </provider>
