@@ -20,6 +20,8 @@ creditlink: http://www.q-dance.com/
 
 <script>
     $(function(){
-
+        $.github.user.repos('RobinRadic', function(repos){
+            console.log(repos);
+        })
     })
 </script>
