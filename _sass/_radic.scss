@@ -40,6 +40,11 @@ pre code {
 
 @import "vendor/gh-profile-widget";
 
+#main {
+    img {
+        @include img-responsive;
+    }
+}
 
 .main-left {
     margin-top: 50px;
