@@ -51,6 +51,11 @@ $(document).ready(function () {
         mainClass: 'mfp-fade'
     });
 
+    $('#github-profile').githubProfile({
+        username: 'RobinRadic',
+        templatePath: '/assets/js/widgets/github-profile.tpl'
+    })
+
 
 
 });

@@ -21,14 +21,7 @@ module.exports = function (grunt) {
                 drafts: true
             }
         },
-        shell: {
-            jekyllBuild: {
-                command: 'jekyll build'
-            },
-            jekyllServe: {
-                command: 'jekyll serve'
-            }
-        },
+
         preprocess: {
             options: {
                 context: {
@@ -55,7 +48,7 @@ module.exports = function (grunt) {
                     '_config.yml',
                     'index.html'
                 ],
-                tasks: ['preprocess:js', 'shell:jekyllBuild', 'shell:jekyllServe'],
+                tasks: ['preprocess:js'],
                 options: {
                     interrupt: true,
                     atBegin: true,
