@@ -75,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/repositories/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.65126675" vertical-offset="67" max-vertical-offset="738">
-              <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
+            <state vertical-scroll-proportion="-8.851851" vertical-offset="67" max-vertical-offset="738">
+              <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -165,11 +165,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_radic.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_radic.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_sass/_radic.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.185184" vertical-offset="985" max-vertical-offset="1764">
-              <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.9463487" vertical-offset="985" max-vertical-offset="1818">
+              <caret line="90" column="20" selection-start-line="90" selection-start-column="20" selection-end-line="90" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -259,8 +259,8 @@
         <option value="$PROJECT_DIR$/_includes/_layouts/page.html" />
         <option value="$PROJECT_DIR$/_sass/base/_page.scss" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
-        <option value="$PROJECT_DIR$/_sass/_radic.scss" />
         <option value="$PROJECT_DIR$/repositories/index.html" />
+        <option value="$PROJECT_DIR$/_sass/_radic.scss" />
       </list>
     </option>
   </component>
@@ -1104,6 +1104,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/repositories/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.851851" vertical-offset="67" max-vertical-offset="738">
+          <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_sass/_core.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="234">
@@ -1114,16 +1122,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_sass/_radic.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.185184" vertical-offset="985" max-vertical-offset="1764">
-          <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/repositories/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65126675" vertical-offset="67" max-vertical-offset="738">
-          <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.9463487" vertical-offset="985" max-vertical-offset="1818">
+          <caret line="90" column="20" selection-start-line="90" selection-start-column="20" selection-end-line="90" selection-end-column="20" />
           <folding />
         </state>
       </provider>
