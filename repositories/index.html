@@ -13,7 +13,9 @@ creditlink: http://www.q-dance.com/
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            {{ site.github }}
+            {% for repo in site.github.public_repositories %}
+                {{ repo }}
+            {% endfor %}
         </div>
     </div>
 </div>
