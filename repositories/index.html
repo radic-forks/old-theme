@@ -15,18 +15,18 @@ creditlink: http://www.q-dance.com/
                     <tr>
                         <th>Repository</th>
                         <th>Description</th>
-                        <th>Stars</th>
-                        <th>Forks</th>
-                        <th>Watchers</th>
+                        <th><i class="fa fa-star"></i></th>
+                        <th><i class="fa fa-code-fork"></i></th>
+                        <th><i class="fa fa-eye"></i></th>
                         <th>Open issues</th>
                     </tr>
                 </thead>
                 <tbody>
                     {% for repo in site.github.public_repositories %}
                     <tr>
-                        <td><a href="{{ repo.html_url }}" target="_blank">{{ repo.name }}</a></td>
-                        <td>{{ repo.description }}</td>
-                        <td>{{ repo.stargazers_count }}</td>
+                        <td class="repo-table-name"><a href="{{ repo.html_url }}" target="_blank">{{ repo.name }}</a></td>
+                        <td class="repo-table-desc">{{ repo.description }}</td>
+                        <td >{{ repo.stargazers_count }}</td>
                         <td>{{ repo.forks }}</td>
                         <td>{{ repo.watchers }}</td>
                         <td>{{ repo.open_issues }}</td>
