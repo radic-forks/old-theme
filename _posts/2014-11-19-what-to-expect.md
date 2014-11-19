@@ -2,7 +2,7 @@
 layout: post
 title: What to expect on my git
 description: "Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more."
-modified: 2013-05-31
+modified: 2014-11-19
 tags: [sample post]
 image:
   feature: abstract-3.jpg
@@ -753,7 +753,7 @@ I've still spend quite some time on some stuff. Like ksplashx with QML. It's the
 First, the logo and backkground:
 
 
-![radic gitinit](/images/RadicOS131-1920x1200). Pretty much all questions are already filled in properly by default. How much times haven't you done:
+![radic gitinit]({{ site_url }}/images/RadicOS131-1920x1200). Pretty much all questions are already filled in properly by default. How much times haven't you done:
 
 
-And you can grab the [animation files and QML code here](/images/ksplashx.zip). Sorry no video.. But its great to cheat from and adept into your own ksplashxQML intro...
+And you can grab the [animation files and QML code here]({{ site_url }}/images/ksplashx.zip). Sorry no video.. But its great to cheat from and adept into your own ksplashxQML intro...
