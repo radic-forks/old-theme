@@ -23,6 +23,7 @@ creditlink: http://www.q-dance.com/
                 </thead>
                 <tbody>
                     {% for repo in site.github.public_repositories %}
+                    {% if repo.fork == false %}
                     <tr>
                         <td class="repo-table-name"><a href="{{ repo.html_url }}" target="_blank">{{ repo.name }}</a></td>
                         <td class="repo-table-desc repo-table-border-right">{{ repo.description }}</td>
@@ -30,6 +31,7 @@ creditlink: http://www.q-dance.com/
                         <td class="repo-table-border-right">{% if repo.forks > 0 %}{{ repo.forks }}{% endif %}</td>
                         <td class="repo-table-border-right">{% if repo.watchers > 0 %}{{ repo.watchers }}{% endif %}</td>
                     </tr>
+                    {% endif %}
                     {% endfor %}
                 </tbody>
             </table>
