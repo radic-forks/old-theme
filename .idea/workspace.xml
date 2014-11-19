@@ -75,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/repositories/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7138211" vertical-offset="101" max-vertical-offset="810">
-              <caret line="30" column="76" selection-start-line="30" selection-start-column="76" selection-end-line="30" selection-end-column="76" />
+            <state vertical-scroll-proportion="-5.2891564" vertical-offset="101" max-vertical-offset="810">
+              <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -155,11 +155,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_radic.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_radic.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_sass/_radic.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.5185184" vertical-offset="1039" max-vertical-offset="1854">
-              <caret line="66" column="36" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.8122206" vertical-offset="1039" max-vertical-offset="1908">
+              <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -249,8 +249,8 @@
         <option value="$PROJECT_DIR$/_includes/_layouts/page.html" />
         <option value="$PROJECT_DIR$/_sass/base/_page.scss" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
-        <option value="$PROJECT_DIR$/_sass/_radic.scss" />
         <option value="$PROJECT_DIR$/repositories/index.html" />
+        <option value="$PROJECT_DIR$/_sass/_radic.scss" />
       </list>
     </option>
   </component>
@@ -1080,18 +1080,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/_radic.scss">
+    <entry file="file://$PROJECT_DIR$/repositories/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.5185184" vertical-offset="1039" max-vertical-offset="1854">
-          <caret line="66" column="36" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
+        <state vertical-scroll-proportion="-5.2891564" vertical-offset="101" max-vertical-offset="810">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/repositories/index.html">
+    <entry file="file://$PROJECT_DIR$/_sass/_radic.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7138211" vertical-offset="101" max-vertical-offset="810">
-          <caret line="30" column="76" selection-start-line="30" selection-start-column="76" selection-end-line="30" selection-end-column="76" />
+        <state vertical-scroll-proportion="0.8122206" vertical-offset="1039" max-vertical-offset="1908">
+          <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
           <folding />
         </state>
       </provider>

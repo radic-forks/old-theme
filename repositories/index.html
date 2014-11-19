@@ -28,7 +28,7 @@ creditlink: http://www.q-dance.com/
                     <tr>
                         <td class="repo-table-name"><a href="{{ repo.html_url }}" target="_blank">{{ repo.name }}</a></td>
                         <td class="repo-table-desc repo-table-border-right">{{ repo.description }}</td>
-                        <td class="repo-table-border-right">{{ repo.language }}</td>
+                        <td class="repo-table-lang repo-table-border-right">{{ repo.language }}</td>
                         <td class="repo-table-border-right">{% if repo.stargazers_count > 0 %}{{ repo.stargazers_count }}{% endif %}</td>
                         <td class="repo-table-border-right">{% if repo.forks > 0 %}{{ repo.forks }}{% endif %}</td>
                         <td class="repo-table-border-right">{% if repo.watchers > 0 %}{{ repo.watchers }}{% endif %}</td>
