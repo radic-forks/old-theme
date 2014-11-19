@@ -12,10 +12,10 @@ image:
 
 
 FIRST POST YEAH. Summing up some stuff you'll find here in the future...
-[Developing][]
-[WebDeveloping][]
-[Custom Linux][]
-[Screenshot and download][]
+- [Developing][Developing]
+- [WebDeveloping][]
+- [Custom Linux][]
+- [Screenshot and download][]
 
 Below is just about a tenth of what i'll try to cover in blogs, projects and repositories/demos. But i'll bore you with a little introduction story in my bestest engrish.
 
@@ -36,7 +36,7 @@ Nowadays, i can't even imagine only working like that. Obviously, it might very 
 
 ### WebDeveloping ###
 **Example workflow**
-(Do mind, its always project dependable).
+
 - Open up a terminal, or maby 2/3 for some proper multitasking.
 - Initialize npm, bower, grunt. Fix .gitignore, .jshintrc. Heck, add license and readme while your at it.
 - Start configuring a config file, make it integrate into gruntfile.
@@ -53,6 +53,7 @@ Youd need to pre-process SCSS or LESS. You'd need to fix bower properly (wiredep
 Now the silly thing of all is that the time-investment to properly do some front-end developing screws up my back-end developing interests. I'm very happy with the way PHP is moving the last couple of years.. composer, laravel, packagist.. all sweet stuff.
 
 Il now get to the point im trying to make clear, as web-developer you simply require multiple skills:
+
 - NodeJS/Javascript for server side
 - Javascript for client side (try creating a fancy big library that actually works on all browsers... love IE!)
 - Windows are objects to look trough. Apples are nasty things you eat. You'd really want to have Tux the pinguin. (in other words, make sure u do your web-development on linux. If you can code but still use windows, invest the time to make it your main OS!)
@@ -753,7 +754,7 @@ I've still spend quite some time on some stuff. Like ksplashx with QML. It's the
 First, the logo and backkground:
 
 
-![radic gitinit]({{ site_url }}/images/RadicOS131-1920x1200). Pretty much all questions are already filled in properly by default. How much times haven't you done:
+![radic gitinit]({{ site_url }}/images/RadicOS131-1920x1200.jpg). Pretty much all questions are already filled in properly by default. How much times haven't you done:
 
 
 And you can grab the [animation files and QML code here]({{ site_url }}/images/ksplashx.zip). Sorry no video.. But its great to cheat from and adept into your own ksplashxQML intro...
