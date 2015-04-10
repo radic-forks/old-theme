@@ -2,6 +2,7 @@
 
 var util = require('util');
 
+// my new content
 
 module.exports = function (grunt) {
 
